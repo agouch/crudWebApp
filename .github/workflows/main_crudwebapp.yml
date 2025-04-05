@@ -62,5 +62,4 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'crudWebApp'
-          slot-name: 'Production'
           package: '*.jar'
