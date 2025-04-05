@@ -63,3 +63,4 @@ jobs:
         with:
           app-name: 'crudwebapp'
           package: '*.jar'
+          deployment-method: 'zipDeploy'
